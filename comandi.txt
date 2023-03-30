@@ -1,0 +1,30 @@
+   83  git checkout master
+   84  git add .
+   85  git commit -m "titolo modific ato"
+   86  git merge newFeature-Navbar 
+   87  git add .
+   88  git commit -m "conflitto in corso"
+   89  git push origin master
+   90  cd Desktop/
+   91  cd Compito_Valentini2/
+   92  git clone https://github.com/sena-meucci/progettoStampa.git
+   93  ls
+   94  cs progettoStampa/
+   95  cd progettoStampa/
+   96  ls
+   97  nano stampa.cpp 
+   98  git config user.email "valentiniserena595@gmail.com"
+   99  git config user.name "Serena Valentini"
+  100  git add .
+  101  git commit -m "inserito nome"
+  102  nano stampa.cpp 
+  103  git branch BugFix
+  104  git checkout BugFix 
+  105  nano stampa.cpp 
+  106  git add .
+  107  git commit -m "er4rore risolto in stampa"
+  108  git checkout master
+  109  git status
+  110  git merge BugFix
+  111  git branch -d BugFix
+  112  history 30 > comandi.txt
